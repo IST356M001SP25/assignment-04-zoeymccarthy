@@ -1,0 +1,58 @@
+[
+    {
+      "name": "Adam",
+      "gpa": 3.4,
+      "major": "Accouiting",
+      "credits": 37,
+      "school": "Business"
+    },
+    {
+      "name": "Bella",
+      "gpa": 2.2,
+      "major": "Math",
+      "credits": 40,
+      "school": "Sciences"
+    },
+    {
+      "name": "Clive",
+      "gpa": 2,
+      "major": "Finance",
+      "credits": 42,
+      "school": "Business"
+    },
+    {
+      "name": "Donny",
+      "gpa": 3,
+      "major": "Biology",
+      "credits": 60,
+      "school": "Sciences"
+    },
+    {
+      "name": "Ella",
+      "gpa": 4,
+      "major": "Music",
+      "credits": 61,
+      "school": "Arts"
+    },
+    {
+      "name": "Francis",
+      "gpa": 2.7,
+      "major": "Music",
+      "credits": 33,
+      "school": "Arts"
+    },
+    {
+      "name": "Greta",
+      "gpa": 3.6,
+      "major": "Finance",
+      "credits": 66,
+      "school": "Business"
+    },
+    {
+      "name": "Hedy",
+      "gpa": 3.8,
+      "major": "Drama",
+      "credits": 70,
+      "school": "Arts"
+    }
+  ]
