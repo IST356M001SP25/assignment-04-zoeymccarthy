@@ -38,7 +38,8 @@ def get_file_extension(file_path : str) -> str:
     'countries.json' -> 'json'
 
     '''
-    pass # todo: replace this line and add your code
+    list = file_path.split(".")
+    return list.pop()
 
 def load_file(file_path: str, ext: str) -> pd.DataFrame:
     '''
@@ -48,7 +49,14 @@ def load_file(file_path: str, ext: str) -> pd.DataFrame:
     - when csv assume first row is header
     - when json assume record-oriented data
     '''
-    pass # todo: replace this line and add your code
+    if ext == 'csv':
+        return pd.read_csv(file_path, header=0)
+    elif ext == 'xlsx':
+        return pd.read_excel(file_path)
+    elif ext == 'json':
+        return pd.read_json(file_path, orient='records')
+    else:
+        return None
 
 if __name__ == '__main__':
     df = pd.DataFrame({ 
