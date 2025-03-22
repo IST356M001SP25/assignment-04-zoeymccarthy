@@ -9,22 +9,26 @@ def get_column_names(df : pd.DataFrame) -> list[str]:
     Get all column names of a pandas dataframe df
     Returns the names as a list of string
     '''
-    pass # todo: replace this line and add your code
-
+    return df.columns.tolist()
 
 def get_columns_of_type(df : pd.DataFrame, numpy_type: any) -> list[str]:
     '''
     Return the column names of a pandas dataframe only when 
     the values in the column match the numpy_type
     '''
-    pass # todo: replace this line and add your code
+    columns = []
+    for col in df.columns:
+        if df[col].dtype == numpy_type:
+            columns.append(col)
+    return columns      
 
 
 def get_unique_values(df : pd.DataFrame, column_name: str) -> list:
     '''
     Get a list of unique values of a column in a pandas dataframe
     '''
-    pass # todo: replace this line and add your code
+    
+    return df[column_name].unique().tolist()
 
 def get_file_extension(file_path : str) -> str:
     '''
