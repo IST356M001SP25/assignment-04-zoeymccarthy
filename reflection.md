@@ -23,3 +23,8 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
+I learned about what a numpy data type is. Python has several data types already, though numpy adds several such as M for datetime, U for a unicode string, and several others. 
+
+I also learned that you can use the pandas describe() function to be able to produce statistics for the numerical columns. The function produces the number of non-empty values, the mean, the miniumum value, maximum value, the 25th percentile, the fiftieth percentile, and the 75th percentile. 
+
+Lastly, I learned that you can use the pop() function on lists to remove the last value of the list and return it. I used this in my get_file_extension() function in pandaslib.py to be able to return the last value of a list I created.
